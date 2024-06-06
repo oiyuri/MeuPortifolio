@@ -1,0 +1,74 @@
+/* styles.css */
+body {
+    background-color: #0d1b2a;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    animation-duration: 2s;
+}
+
+.profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #e0e0e0;
+}
+
+.skills-section, .about-section {
+    background-color: #1b263b;
+    border-radius: 15px;
+}
+
+.skills-section h2, .about-section h2, .social-media h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.skills-section ul, .about-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.skills-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.social-media a {
+    color: #e0e0e0;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #bb86fc;
+}
+
+.footer {
+    background-color: #101f3a;
+    color: #e0e0e0;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer a {
+    color: #bb86fc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
